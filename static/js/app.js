@@ -155,7 +155,7 @@ function gaugeChart(sample){
   });
 };
 
-// --------------------------------------------- GAUGE CHART ATTEMPT 2 ------------------------------------------------
+// IGNORE!(Still in progress)--------------------------------------------- GAUGE CHART ATTEMPT 2 ------------------------------------------------
 // Enter a speed between 0 and 180
 // function gaugeChart(sample){
 //     d3.json(url).then(function(data){
@@ -241,7 +241,7 @@ function gaugeChart(sample){
 
 // Create function to initialize the default dashboard
 
-// -------------------------Attempt 3 -----------------------------
+// IGNORE!(Still in progress)-------------------------Attempt 3 -----------------------------
 // function gaugeChart(sample){
 //     d3.json(url).then(function(data){
 //      // Assign all metadata to metaData
