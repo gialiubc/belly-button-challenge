@@ -242,29 +242,29 @@ function gaugeChart(sample){
 // Create function to initialize the default dashboard
 
 // -------------------------Attempt 3 -----------------------------
-function gaugeChart(sample){
-    d3.json(url).then(function(data){
-     // Assign all metadata to metaData
-     let metaData = data.metadata;
-     // Find the array of matching sample number to id
-     let metaSampleMatch = metaData.filter(match => match.id == sample);
-     // Access the data within the array
-     let metaSampleData = metaSampleMatch[0];
-     // Get the key/value pair of wfreq
-     let wfreq = Object.values(metaSampleData)[6];
+// function gaugeChart(sample){
+//     d3.json(url).then(function(data){
+//      // Assign all metadata to metaData
+//      let metaData = data.metadata;
+//      // Find the array of matching sample number to id
+//      let metaSampleMatch = metaData.filter(match => match.id == sample);
+//      // Access the data within the array
+//      let metaSampleData = metaSampleMatch[0];
+//      // Get the key/value pair of wfreq
+//      let wfreq = Object.values(metaSampleData)[6];
      
-     let gaugeChart = {
-        type: "gauge",
-        yAxis:{
-            scale_range:[0,9]
-        },
-        series:{
-            points: {
-                y: wfreq,
-                z: 0.8
-         }
-        }
-    }
+//      let gaugeChart = {
+//         type: "gauge",
+//         yAxis:{
+//             scale_range:[0,9]
+//         },
+//         series:{
+//             points: {
+//                 y: wfreq,
+//                 z: 0.8
+//         }
+//      }
+//     }
 
 
 
